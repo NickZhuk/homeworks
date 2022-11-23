@@ -3,6 +3,6 @@ point_a1 = int(input('Введите координату x(точки а):'))
 point_a2 = int(input('Введите координату y(точки а):'))
 point_b1 = int(input('Введите координату x(точки b):'))
 point_b2 = int(input('Введите координату y(точки b):'))
-distance_between_points = sqrt(pow(point_b2 - point_a2, 2) + pow(point_b1 - 
+distance_between_points = sqrt(pow(point_b2 - point_a2, 2) + pow(point_b1 -
                                                                  point_a1, 2))
 print(f'Расстояние между точками:{distance_between_points}')
